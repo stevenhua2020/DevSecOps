@@ -45,4 +45,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
             push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/dssd:latest
+            tags: stevenhua2020/dssd:latest
