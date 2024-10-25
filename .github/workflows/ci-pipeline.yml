@@ -46,6 +46,3 @@ jobs:
         with:
             push: true
             tags: ${{ secrets.DOCKERHUB_USERNAME }}/dssd:latest
-        env:
-            DOCKER_BUILDKIT: 1
-            BUILDKIT_PROGRESS: plain
